@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Baloo Bhaijaan 2", system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-background text-mint;
+  }
+}
+
+/* Custom Styles for Kid-friendly UI */
+.kid-title {
+  @apply text-4xl md:text-6xl font-bold tracking-wide;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.kid-subtitle {
+  @apply text-xl md:text-2xl font-medium tracking-wide;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.kid-text {
+  @apply text-lg leading-relaxed tracking-wide;
+}
+
+/* Animated Background */
+.animated-bg {
+  @apply absolute inset-0 opacity-20;
+  background-size: 30px 30px;
+  background-image: 
+    linear-gradient(to right, rgba(74, 155, 99, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(74, 155, 99, 0.1) 1px, transparent 1px);
+  animation: slide 20s linear infinite;
+}
+
+@keyframes slide {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(30px);
+  }
+}
