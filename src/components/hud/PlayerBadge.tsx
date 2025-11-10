@@ -19,8 +19,8 @@ export const PlayerBadge: React.FC = () => {
             transition={{ duration: 3, repeat: Infinity }}
             className="relative"
           >
-            <CharacterImage 
-              imageUrl="https://wsad.sa/wp-content/Asset%202.svg"
+            <CharacterImage
+              imageUrl="https://wsad.sa/wp-content/uploads/2024/11/Untitled-design-2024-11-27T205802.164-1-1024x1024.png"
               size="xs"
               showEffects={false}
             />
