@@ -90,7 +90,7 @@ export const StartScreen: React.FC<Props> = ({ onStart }) => {
       {/* Add Character to Bottom Right */}
       <div className="absolute bottom-8 right-8">
         <CharacterImage
-          imageUrl="https://wsad.sa/wp-content/uploads/2024/11/Untitled-design-2024-11-27T205802.164-1-1024x1024.png"
+          imageUrl="/Group@2x copy.png"
           size="xl"
           showEffects={true}
         />

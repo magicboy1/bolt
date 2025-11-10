@@ -20,7 +20,7 @@ export const PlayerBadge: React.FC = () => {
             className="relative"
           >
             <CharacterImage
-              imageUrl="https://wsad.sa/wp-content/uploads/2024/11/Untitled-design-2024-11-27T205802.164-1-1024x1024.png"
+              imageUrl="/Group@2x copy.png"
               size="xs"
               showEffects={false}
             />
