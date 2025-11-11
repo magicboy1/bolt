@@ -4,18 +4,18 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        arabic: ['"IBM Plex Sans Arabic"', 'system-ui', 'sans-serif'],
+        arabic: ['"Almarai"', 'system-ui', 'sans-serif'],
       },
       colors: {
         navy: '#1B1F2B',
-        green: '#4A9B63',
-        coral: '#E27B63',
-        forest: '#1E4534',
-        blue: '#4B5C9B',
-        brown: '#582B23',
-        mint: '#D8E6E1',
-        surface: '#2A2F3B',
-        background: '#1B1F2B',
+        green: '#FF8B5D',
+        coral: '#FF8B5D',
+        forest: '#3D2820',
+        blue: '#FF8B5D',
+        brown: '#3D2820',
+        mint: '#FFFFFF',
+        surface: '#3D2820',
+        background: '#FF8B5D',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

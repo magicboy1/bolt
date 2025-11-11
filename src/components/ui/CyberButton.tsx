@@ -67,12 +67,12 @@ export const CyberButton: React.FC<Props> = ({
       />
 
       <div className={`
-        relative bg-surface/90 backdrop-blur-sm rounded-lg
-        ${sizeClasses[size]} font-bold text-mint
-        border border-${variant === 'primary' ? 'green' : 'coral'}/20
+        relative bg-forest/90 backdrop-blur-sm rounded-lg
+        ${sizeClasses[size]} font-bold text-white
+        border border-forest/20
         flex items-center justify-center gap-3
         transition-colors duration-200
-        ${!disabled && 'hover:bg-surface/70'}
+        ${!disabled && 'hover:bg-forest/70'}
       `}>
         {children}
         

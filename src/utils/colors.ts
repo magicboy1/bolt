@@ -1,35 +1,35 @@
 export const COLORS = {
   // Primary Colors
-  navy: '#1B1F2B',      // CMYK: 100/71/9/56
-  green: '#4A9B63',     // CMYK: 56/0/58/0
-  coral: '#E27B63',     // CMYK: 0/51/55/0
-  forest: '#1E4534',    // CMYK: 84/20/58/54
-  blue: '#4B5C9B',      // CMYK: 83/54/0/0
-  brown: '#582B23',     // CMYK: 18/100/45/67
-  mint: '#D8E6E1',      // CMYK: 22/6/0/0
-  
+  navy: '#1B1F2B',      // Dark background
+  green: '#FF8B5D',     // Main coral accent
+  coral: '#FF8B5D',     // Coral/salmon
+  forest: '#3D2820',    // Dark brown
+  blue: '#FF8B5D',      // Coral accent
+  brown: '#3D2820',     // Dark brown
+  mint: '#FFFFFF',      // White
+
   // UI Semantic Colors
-  primary: '#4A9B63',   // Green for primary actions
-  secondary: '#E27B63', // Coral for secondary actions
-  accent: '#4B5C9B',    // Blue for accents
-  
+  primary: '#FF8B5D',   // Coral for primary actions
+  secondary: '#3D2820', // Brown for secondary
+  accent: '#FF8B5D',    // Coral for accents
+
   // Background Colors
-  background: '#1B1F2B',
-  surface: '#2A2F3B',
-  card: '#D8E6E1',
-  
+  background: '#FF8B5D',
+  surface: '#3D2820',
+  card: '#FFFFFF',
+
   // Text Colors
   text: {
     primary: '#FFFFFF',
-    secondary: '#D8E6E1',
-    muted: 'rgba(216, 230, 225, 0.6)',
+    secondary: '#FFFFFF',
+    muted: 'rgba(255, 255, 255, 0.8)',
   },
-  
+
   // Border Colors
   border: {
-    light: 'rgba(74, 155, 99, 0.2)',
-    medium: 'rgba(74, 155, 99, 0.4)',
-    strong: 'rgba(74, 155, 99, 0.6)',
+    light: 'rgba(255, 139, 93, 0.2)',
+    medium: 'rgba(255, 139, 93, 0.4)',
+    strong: 'rgba(255, 139, 93, 0.6)',
   }
 };
 

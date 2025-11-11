@@ -13,22 +13,12 @@ interface Props {
 
 export const StartScreen: React.FC<Props> = ({ onStart }) => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-navy via-forest to-navy overflow-hidden relative">
+    <div className="min-h-screen bg-gradient-to-br from-coral via-coral to-coral overflow-hidden relative">
       {/* Hexagon Pattern Background */}
       <div className="absolute inset-0 bg-hexagon-pattern opacity-5" />
       
-      {/* Animated Gradient Overlay */}
-      <motion.div
-        className="absolute inset-0"
-        style={{
-          background: `radial-gradient(circle at 50% 50%, ${COLORS.green}20, transparent 70%)`
-        }}
-        animate={{
-          scale: [1, 1.2, 1],
-          opacity: [0.3, 0.1, 0.3],
-        }}
-        transition={{ duration: 3, repeat: Infinity }}
-      />
+      {/* Diagonal Shape */}
+      <div className="absolute bottom-0 right-0 w-2/5 h-1/3 bg-forest transform skew-y-3" />
 
       <FloatingViruses />
 
@@ -47,34 +37,24 @@ export const StartScreen: React.FC<Props> = ({ onStart }) => {
               transition={{ duration: 2, repeat: Infinity }}
             >
               <div className="relative">
-                <Shield className="w-24 h-24 text-green" />
+                <Shield className="w-24 h-24 text-white" strokeWidth={1.5} />
                 <motion.div
                   className="absolute inset-0"
-                  animate={{ 
+                  animate={{
                     opacity: [0, 1, 0],
                     scale: [1, 1.2, 1],
                   }}
                   transition={{ duration: 1.5, repeat: Infinity }}
                 >
-                  <Shield className="w-24 h-24 text-green" />
-                </motion.div>
-                {/* Power Sparks */}
-                <motion.div
-                  className="absolute -right-4 -top-4"
-                  animate={{ rotate: 360 }}
-                  transition={{ duration: 2, repeat: Infinity }}
-                >
-                  <Zap className="w-8 h-8 text-coral" />
+                  <Shield className="w-24 h-24 text-white" strokeWidth={1.5} />
                 </motion.div>
               </div>
             </motion.div>
 
-            <h1 className="text-7xl font-bold">
-              <span className="bg-gradient-to-r from-green via-blue to-coral bg-clip-text text-transparent">
-                اصطياد الفيروسات
-              </span>
+            <h1 className="text-7xl font-bold text-white">
+              اصطياد الفيروسات
             </h1>
-            <p className="text-2xl text-mint/90">!انضم إلى أمان في مهمته لحماية عالمنا الرقمي</p>
+            <p className="text-2xl text-white">!انضم إلى أمان في مهمته لحماية عالمنا الرقمي</p>
           </motion.div>
 
           {/* Start Button */}
